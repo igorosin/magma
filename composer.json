@@ -1,0 +1,28 @@
+{
+    "name": "igorosin/magma",
+    "description": "Copy of deleted by jbizzay/magma repository; Laravel package for creating powerful and dynamic controllers",
+    "keywords": ["laravel", "eloquent"],
+    "authors": [
+        {
+            "name": "Igor Osin",
+            "email": "igorosin.php@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4.1",
+        "laravelbook/ardent": "~2.4"
+    },
+    "suggest": {
+        "zizaco/entrust":"add Role-based Permissions to Laravel 4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Jbizzay\\Magma\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
